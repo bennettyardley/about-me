@@ -1,0 +1,100 @@
+
+body{
+    font-family: Arial,sans-serif;
+    margin: 0 auto;
+    background-color: #141c27;
+    color: white;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 10px auto;
+}
+h2 {
+    color:#ed685a;
+}
+
+a{
+    text-decoration: none;
+    color:  lightskyblue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.wrapper{
+    max-width: 700px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.section{
+    margin-bottom: 50px;
+}
+
+#top{
+    font-size: 10px;
+    color: white;
+    background-color: black;
+}
+#top h1 {
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#about{
+    background-color: #d84848;
+    color: white;
+    margin-bottom: -10px;
+}
+
+#portList {
+    list-style: none;
+    margin-left: 0px;
+}
+#portList > li{
+    margin-left: 0px;
+}
+#portList > li > img{
+    width: 75px;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 25%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.24);
+}
+#portList > li > h2 {
+    display: inline-block;
+
+}
+
+.appHead{
+    display: inline-block;
+    vertical-align: middle;
+}
+.appHead p {
+    margin-top: -10px;
+}
+
+#contact{
+    margin-top: -105px;
+}
+
+#footer {
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+#footer > .wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
