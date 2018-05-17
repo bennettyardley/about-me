@@ -1,2 +1,2 @@
 # about-me
-An about me website
+My code for my personal website.
